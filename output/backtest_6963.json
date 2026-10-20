@@ -1,0 +1,216 @@
+{
+  "company": {
+    "code": "6963",
+    "name": "ローム"
+  },
+  "feature": "当四半期最初の2カ月の台湾同業・需要先月次売上YoY、その前四半期からの変化",
+  "method": "fixed-rule pseudo out-of-sample comparison; no future-quarter rows in each calculation",
+  "point_in_time_certified": false,
+  "leakage_audit": {
+    "calculation_future_rows": "not used",
+    "feature_window": "quarter months 1-2 only",
+    "model_fitting": "none; fixed ±10 percentage-point rule",
+    "publication_timestamp": "not stored",
+    "data_vintage": "current revised Taiwan monthly series; original vintages unavailable",
+    "selection_bias": "peer groups and threshold selected with full-sample domain knowledge",
+    "conclusion": "provisional backtest, not a certified point-in-time result"
+  },
+  "targets": {
+    "sales": {
+      "target": "当四半期売上高YoYの前四半期比方向（±10pt）",
+      "observations": 10,
+      "period": [
+        "2024Q1",
+        "2026Q2"
+      ],
+      "model": {
+        "accuracy": 0.7,
+        "balanced_accuracy": 0.3888888888888889,
+        "majority_class_accuracy": 0.9,
+        "actual_counts": {
+          "上向き": 1,
+          "横ばい": 9,
+          "下向き": 0
+        },
+        "confusion_matrix": {
+          "上向き": {
+            "上向き": 0,
+            "横ばい": 1,
+            "下向き": 0
+          },
+          "横ばい": {
+            "上向き": 2,
+            "横ばい": 7,
+            "下向き": 0
+          },
+          "下向き": {
+            "上向き": 0,
+            "横ばい": 0,
+            "下向き": 0
+          }
+        }
+      },
+      "records": [
+        {
+          "quarter": "2024Q1",
+          "information_cutoff": "2024Q1 month 2",
+          "peer_revenue_yoy_pct": 7.276603969221763,
+          "peer_yoy_change_pp": 13.180710983960381,
+          "predicted": "上向き",
+          "actual": "横ばい",
+          "sales_yoy_pct": -4.306683429037406,
+          "sales_yoy_change_pp": 6.779261628776267
+        },
+        {
+          "quarter": "2024Q2",
+          "information_cutoff": "2024Q2 month 2",
+          "peer_revenue_yoy_pct": 7.587066993837983,
+          "peer_yoy_change_pp": 0.31046302461621966,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": -1.5703669182693503,
+          "sales_yoy_change_pp": 2.736316510768056
+        },
+        {
+          "quarter": "2024Q3",
+          "information_cutoff": "2024Q3 month 2",
+          "peer_revenue_yoy_pct": 4.092629036633698,
+          "peer_yoy_change_pp": -3.4944379572042843,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": -4.540266541340765,
+          "sales_yoy_change_pp": -2.9698996230714148
+        },
+        {
+          "quarter": "2024Q4",
+          "information_cutoff": "2024Q4 month 2",
+          "peer_revenue_yoy_pct": 7.643000209600466,
+          "peer_yoy_change_pp": 3.5503711729667673,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": -2.751992539311099,
+          "sales_yoy_change_pp": 1.7882740020296661
+        },
+        {
+          "quarter": "2025Q1",
+          "information_cutoff": "2025Q1 month 2",
+          "peer_revenue_yoy_pct": 14.244769763972307,
+          "peer_yoy_change_pp": 6.601769554371842,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": -7.838159319686833,
+          "sales_yoy_change_pp": -5.086166780375734
+        },
+        {
+          "quarter": "2025Q2",
+          "information_cutoff": "2025Q2 month 2",
+          "peer_revenue_yoy_pct": 6.099324952543253,
+          "peer_yoy_change_pp": -8.145444811429055,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": -1.750989211674392,
+          "sales_yoy_change_pp": 6.08717010801244
+        },
+        {
+          "quarter": "2025Q3",
+          "information_cutoff": "2025Q3 month 2",
+          "peer_revenue_yoy_pct": 2.8082240494423942,
+          "peer_yoy_change_pp": -3.291100903100859,
+          "predicted": "横ばい",
+          "actual": "上向き",
+          "sales_yoy_pct": 12.551650167917995,
+          "sales_yoy_change_pp": 14.302639379592387
+        },
+        {
+          "quarter": "2025Q4",
+          "information_cutoff": "2025Q4 month 2",
+          "peer_revenue_yoy_pct": 14.516725021730947,
+          "peer_yoy_change_pp": 11.708500972288553,
+          "predicted": "上向き",
+          "actual": "横ばい",
+          "sales_yoy_pct": 11.2475581601847,
+          "sales_yoy_change_pp": -1.3040920077332938
+        },
+        {
+          "quarter": "2026Q1",
+          "information_cutoff": "2026Q1 month 2",
+          "peer_revenue_yoy_pct": 16.98896344869686,
+          "peer_yoy_change_pp": 2.472238426965914,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": 7.521382339343496,
+          "sales_yoy_change_pp": -3.7261758208412044
+        },
+        {
+          "quarter": "2026Q2",
+          "information_cutoff": "2026Q2 month 2",
+          "peer_revenue_yoy_pct": 26.32062256515867,
+          "peer_yoy_change_pp": 9.331659116461807,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": 16.80994793683577,
+          "sales_yoy_change_pp": 9.288565597492273
+        }
+      ]
+    },
+    "operating_profit": {
+      "target": "当四半期営業利益YoYの前四半期比方向（±10pt）",
+      "observations": 2,
+      "period": [
+        "2024Q1",
+        "2024Q2"
+      ],
+      "model": {
+        "accuracy": 0.5,
+        "balanced_accuracy": 0.5,
+        "majority_class_accuracy": 0.5,
+        "actual_counts": {
+          "上向き": 0,
+          "横ばい": 1,
+          "下向き": 1
+        },
+        "confusion_matrix": {
+          "上向き": {
+            "上向き": 0,
+            "横ばい": 0,
+            "下向き": 0
+          },
+          "横ばい": {
+            "上向き": 0,
+            "横ばい": 1,
+            "下向き": 0
+          },
+          "下向き": {
+            "上向き": 1,
+            "横ばい": 0,
+            "下向き": 0
+          }
+        }
+      },
+      "records": [
+        {
+          "quarter": "2024Q1",
+          "information_cutoff": "2024Q1 month 2",
+          "peer_revenue_yoy_pct": 7.276603969221763,
+          "peer_yoy_change_pp": 13.180710983960381,
+          "predicted": "上向き",
+          "actual": "下向き",
+          "operating_profit_yoy_pct": -84.1557212164241,
+          "operating_profit_yoy_change_pp": -27.40069342865072
+        },
+        {
+          "quarter": "2024Q2",
+          "information_cutoff": "2024Q2 month 2",
+          "peer_revenue_yoy_pct": 7.587066993837983,
+          "peer_yoy_change_pp": 0.31046302461621966,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "operating_profit_yoy_pct": -92.82161428894415,
+          "operating_profit_yoy_change_pp": -8.66589307252005
+        }
+      ]
+    }
+  },
+  "earnings_source": "https://www.rohm.com/ir/library/financial-report",
+  "scope_note": null
+}

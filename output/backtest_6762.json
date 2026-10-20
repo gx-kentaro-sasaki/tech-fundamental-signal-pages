@@ -26,6 +26,12 @@
       "model": {
         "accuracy": 0.7142857142857143,
         "balanced_accuracy": 0.7142857142857143,
+        "majority_class_accuracy": 1.0,
+        "actual_counts": {
+          "上向き": 0,
+          "横ばい": 7,
+          "下向き": 0
+        },
         "confusion_matrix": {
           "上向き": {
             "上向き": 0,
@@ -127,6 +133,12 @@
       "model": {
         "accuracy": 0.2,
         "balanced_accuracy": 0.25,
+        "majority_class_accuracy": 0.6,
+        "actual_counts": {
+          "上向き": 2,
+          "横ばい": 0,
+          "下向き": 3
+        },
         "confusion_matrix": {
           "上向き": {
             "上向き": 1,
@@ -199,5 +211,6 @@
       ]
     }
   },
-  "earnings_source": "https://www.tdk.com/en/ir/ir_library/financial/index.html"
+  "earnings_source": "https://www.tdk.com/en/ir/ir_library/financial/index.html",
+  "scope_note": null
 }

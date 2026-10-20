@@ -24,6 +24,12 @@
   "model": {
     "accuracy": 0.46153846153846156,
     "balanced_accuracy": 0.38484848484848483,
+    "majority_class_accuracy": 0.4230769230769231,
+    "actual_counts": {
+      "上向き": 10,
+      "横ばい": 5,
+      "下向き": 11
+    },
     "confusion_matrix": {
       "上向き": {
         "上向き": 7,
@@ -45,6 +51,12 @@
   "repeat_previous_benchmark": {
     "accuracy": 0.4230769230769231,
     "balanced_accuracy": 0.38484848484848483,
+    "majority_class_accuracy": 0.4230769230769231,
+    "actual_counts": {
+      "上向き": 10,
+      "横ばい": 5,
+      "下向き": 11
+    },
     "confusion_matrix": {
       "上向き": {
         "上向き": 5,
