@@ -1,0 +1,841 @@
+{
+  "calibrated_at": "2026-10-19",
+  "method": "company OLS on YoY cumulative results, beta shrunk by n/(n+8)",
+  "stocks": {
+    "8035": {
+      "name": "東京エレクトロン",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 37.949858249584864,
+          "coverage": 0.9999999999999999,
+          "targets": {
+            "sales": -0.9881618747871856,
+            "operating_income": -12.694514671187996,
+            "eps": -5.889027157601944
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 37.66585287618778,
+          "coverage": 0.9999999999999999,
+          "targets": {
+            "sales": 5.174808715204526,
+            "operating_income": -3.4249324634283096,
+            "eps": -0.2572493237747553
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 39.316287767835206,
+          "coverage": 0.9999999999999999,
+          "targets": {
+            "sales": -2.502637703908306,
+            "operating_income": -18.349395643021417,
+            "eps": -9.709217495203404
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 37.83514713353723,
+          "coverage": 0.9999999999999999,
+          "targets": {
+            "sales": 0.4920693149440991,
+            "operating_income": -10.380184678748172,
+            "eps": 6.10368741542624
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": -1.0563193030160711,
+          "error_pct": 2.0376176281173684,
+          "n": 4,
+          "raw_beta": -3.1689579090482134
+        },
+        "operating_income": {
+          "beta": -2.327865829524072,
+          "error_pct": 3.282442524149688,
+          "n": 4,
+          "raw_beta": -6.983597488572217
+        },
+        "eps": {
+          "beta": -2.226589208245652,
+          "error_pct": 4.378606923186276,
+          "n": 4,
+          "raw_beta": -6.679767624736956
+        }
+      },
+      "expected_proxy_growth_pct": 31.05032372120547
+    },
+    "6857": {
+      "name": "アドバンテスト",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 67.2048461696066,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 90.14308884483691,
+            "operating_income": 295.6967278531524,
+            "eps": 280.64914992272026
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 59.747017826597045,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 60.00103278798077,
+            "operating_income": 145.0321002751452,
+            "eps": 147.2210391822828
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 58.945152657311766,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 46.254736388250464,
+            "operating_income": 110.8172989045002,
+            "eps": 107.41733146580597
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 54.85273881716557,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 44.747963016876845,
+            "operating_income": 118.75780698717135,
+            "eps": 135.5832990350757
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": 1.3006268692550205,
+          "error_pct": 10.50825303212273,
+          "n": 4,
+          "raw_beta": 3.9018806077650616
+        },
+        "operating_income": {
+          "beta": 5.202839903447636,
+          "error_pct": 45.80514880945044,
+          "n": 4,
+          "raw_beta": 15.608519710342907
+        },
+        "eps": {
+          "beta": 4.39680771058631,
+          "error_pct": 41.03862724388532,
+          "n": 4,
+          "raw_beta": 13.190423131758928
+        }
+      },
+      "expected_proxy_growth_pct": 31.613030516871138
+    },
+    "6146": {
+      "name": "ディスコ",
+      "pairs": [
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 44.30726004058088,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 8.653787079081553,
+            "operating_income": 3.843216768485358,
+            "eps": 4.562043795620441
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 46.13883358120605,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 11.457248088746708,
+            "operating_income": 9.656119133260344,
+            "eps": 8.602587894348822
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 42.798284773610824,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 11.079216806970527,
+            "operating_income": 10.882074397305107,
+            "eps": 9.322463831499395
+          }
+        },
+        {
+          "period": "2026-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 53.23091986719935,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 27.130369019285094,
+            "operating_income": 42.2070765661253,
+            "eps": 43.9173470784108
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": 0.582025072776205,
+          "error_pct": 4.35090426083812,
+          "n": 4,
+          "raw_beta": 1.7460752183286148
+        },
+        "operating_income": {
+          "beta": 1.1685863398734682,
+          "error_pct": 8.916575301249159,
+          "n": 4,
+          "raw_beta": 3.5057590196204043
+        },
+        "eps": {
+          "beta": 1.2526427052792612,
+          "error_pct": 9.516821741171478,
+          "n": 4,
+          "raw_beta": 3.757928115837784
+        }
+      },
+      "expected_proxy_growth_pct": 31.996158964085396
+    },
+    "7735": {
+      "name": "SCREENホールディングス",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 33.93032715168713,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 1.1682573742521463,
+            "operating_income": -12.17948717948718,
+            "eps": -5.916213623281097
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 33.52966302132455,
+          "coverage": 1.0,
+          "targets": {
+            "sales": -1.117523855529401,
+            "operating_income": -20.224622623688415,
+            "eps": -15.641661034767596
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 35.652175461291044,
+          "coverage": 1.0,
+          "targets": {
+            "sales": -7.5249367341791995,
+            "operating_income": -23.037398503264793,
+            "eps": -18.669371764376674
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 34.00050841021254,
+          "coverage": 1.0,
+          "targets": {
+            "sales": -3.122016284191287,
+            "operating_income": -9.699815009986512,
+            "eps": -52.45618148777771
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": -1.1390169674074522,
+          "error_pct": 2.050042802545889,
+          "n": 4,
+          "raw_beta": -3.4170509022223565
+        },
+        "operating_income": {
+          "beta": -1.2074374695587908,
+          "error_pct": 4.968052784119905,
+          "n": 4,
+          "raw_beta": -3.6223124086763727
+        },
+        "eps": {
+          "beta": 0.33744869024948004,
+          "error_pct": 14.595814236419104,
+          "n": 4,
+          "raw_beta": 1.0123460707484402
+        }
+      },
+      "expected_proxy_growth_pct": 26.7010250020851
+    },
+    "6920": {
+      "name": "レーザーテック",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "FY",
+          "proxy_growth_pct": 33.62652517282621,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 17.784511910672297,
+            "operating_income": 50.95913978494624,
+            "eps": 43.28829860316008
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 38.97916078746425,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 47.45624302474345,
+            "operating_income": 67.86835824645145,
+            "eps": 113.53125315560942
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "2Q",
+          "proxy_growth_pct": 45.30378088213432,
+          "coverage": 1.0,
+          "targets": {
+            "sales": -0.5505241610321954,
+            "operating_income": -1.0540039584053251,
+            "eps": 5.892028065207899
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 42.67902013565046,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 0.4169751532561383,
+            "operating_income": -1.387294901060654,
+            "eps": 8.253033700172875
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": -0.7508102841571148,
+          "error_pct": 15.151262222391491,
+          "n": 4,
+          "raw_beta": -2.2524308524713446
+        },
+        "operating_income": {
+          "beta": -1.823090446994888,
+          "error_pct": 23.308731331801134,
+          "n": 4,
+          "raw_beta": -5.4692713409846645
+        },
+        "eps": {
+          "beta": -1.576343541322222,
+          "error_pct": 34.47449603170119,
+          "n": 4,
+          "raw_beta": -4.729030623966666
+        }
+      },
+      "expected_proxy_growth_pct": 30.657264373636927
+    },
+    "6723": {
+      "name": "ルネサスエレクトロニクス",
+      "pairs": [
+        {
+          "period": "2025-09-30",
+          "period_type": "3Q",
+          "proxy_growth_pct": 10.166398296285955,
+          "coverage": 1.0,
+          "targets": {
+            "sales": -8.164193056211932,
+            "operating_income": -34.6069709073508,
+            "eps": -134.14808206958074
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 12.551679189750619,
+          "coverage": 1.0,
+          "targets": {
+            "sales": -2.022055960826974,
+            "operating_income": -9.781726366396537,
+            "eps": -123.38584605338339
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "1Q",
+          "proxy_growth_pct": 26.468506003395795,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 23.16105150318839,
+            "operating_income": 320.73867595818814,
+            "eps": 159.46132596685084
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": 0.5135186364293541,
+          "error_pct": 9.108970216437696,
+          "n": 3,
+          "raw_beta": 1.882901666907632
+        },
+        "operating_income": null,
+        "eps": {
+          "beta": 5.129666735088329,
+          "error_pct": 93.65411486127475,
+          "n": 3,
+          "raw_beta": 18.808778028657205
+        }
+      },
+      "expected_proxy_growth_pct": 8.887982190429685
+    },
+    "6981": {
+      "name": "村田製作所",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 36.75657436508347,
+          "coverage": 1.0,
+          "targets": {
+            "sales": -1.3167910421216678,
+            "operating_income": -7.162335216572502,
+            "eps": -23.9943342776204
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 29.839309852603662,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 2.1842009052826183,
+            "operating_income": 4.402802012998519,
+            "eps": 3.3405327573793997
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 34.23073730141055,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 2.9097499115651626,
+            "operating_income": -13.302385965211972,
+            "eps": -20.342134622536257
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 37.3343904401717,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 5.019296160500009,
+            "operating_income": 0.7625973357358928,
+            "eps": 2.062679884873675
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": -0.0005942825942264401,
+          "error_pct": 1.7661473359592361,
+          "n": 4,
+          "raw_beta": -0.0017828477826793204
+        },
+        "operating_income": {
+          "beta": -0.28950470956819085,
+          "error_pct": 6.1315155193411295,
+          "n": 4,
+          "raw_beta": -0.8685141287045726
+        },
+        "eps": {
+          "beta": -0.5425070127411477,
+          "error_pct": 11.91769265707449,
+          "n": 4,
+          "raw_beta": -1.627521038223443
+        }
+      },
+      "expected_proxy_growth_pct": 18.361917556918378
+    },
+    "6976": {
+      "name": "太陽誘電",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 37.26283691726045,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 4.525623012645119,
+            "operating_income": 19.46768060836501,
+            "eps": -113.86803634926905
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 31.60107095652879,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 5.8192736631398345,
+            "operating_income": 19.112988384371697,
+            "eps": 55.08563439356868
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 36.63415457396277,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 4.481320959155788,
+            "operating_income": 96.60795048797905,
+            "eps": 54.328905176362795
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 39.70126044733022,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 4.071895922539381,
+            "operating_income": 91.18462568123147,
+            "eps": 534.6545259775039
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": -0.07338615854695377,
+          "error_pct": 0.37496067225847596,
+          "n": 4,
+          "raw_beta": -0.2201584756408613
+        },
+        "operating_income": {
+          "beta": 2.608036306078859,
+          "error_pct": 32.431486318664085,
+          "n": 4,
+          "raw_beta": 7.824108918236577
+        },
+        "eps": {
+          "beta": -5.031984502217972,
+          "error_pct": 67.88826086457568,
+          "n": 3,
+          "raw_beta": -18.450609841465894
+        }
+      },
+      "expected_proxy_growth_pct": 18.37884745086317
+    },
+    "6762": {
+      "name": "TDK",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 36.233597964475095,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 3.2659418013180286,
+            "operating_income": -2.510713298313516,
+            "eps": -86.09608654152083
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 28.971901653548247,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 8.615136654303202,
+            "operating_income": 10.746275374713065,
+            "eps": 5.348169418521187
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 33.22731515911185,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 11.255136051489822,
+            "operating_income": 10.351374747122088,
+            "eps": 12.607618822974409
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 36.09909719811354,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 13.607274290799287,
+            "operating_income": 21.509688124464745,
+            "eps": 17.01475595913735
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": -0.025631721698834622,
+          "error_pct": 3.271739493786072,
+          "n": 4,
+          "raw_beta": -0.07689516509650386
+        },
+        "operating_income": {
+          "beta": -0.07458660903232615,
+          "error_pct": 6.170449055158309,
+          "n": 4,
+          "raw_beta": -0.22375982709697845
+        },
+        "eps": {
+          "beta": -2.0343021763770985,
+          "error_pct": 34.01212704502478,
+          "n": 4,
+          "raw_beta": -6.102906529131295
+        }
+      },
+      "expected_proxy_growth_pct": 16.088738236334038
+    },
+    "5803": {
+      "name": "フジクラ",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 90.28336702980313,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 22.707827600421382,
+            "operating_income": 68.0271552429249,
+            "eps": 63.81873286188482
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 78.3190321402832,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 24.903974849119304,
+            "operating_income": 63.52804628135145,
+            "eps": 133.6085245272151
+          }
+        },
+        {
+          "period": "2026-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 71.19525311569774,
+          "coverage": 1.0,
+          "targets": {
+            "sales": null,
+            "operating_income": null,
+            "eps": null
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 78.8967978141236,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 20.245658500085085,
+            "operating_income": 47.699274985977524,
+            "eps": 89.38842203548087
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 75.66946095685995,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 20.72576898532228,
+            "operating_income": 39.247633173208186,
+            "eps": -71.26120125938485
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": 0.024831560940293224,
+          "error_pct": 1.5729589221116225,
+          "n": 4,
+          "raw_beta": 0.07449468282087968
+        },
+        "operating_income": {
+          "beta": 0.5212480395363196,
+          "error_pct": 9.322995674850446,
+          "n": 4,
+          "raw_beta": 1.563744118608959
+        },
+        "eps": {
+          "beta": 1.2454623788798715,
+          "error_pct": 60.33025432842967,
+          "n": 4,
+          "raw_beta": 3.736387136639615
+        }
+      },
+      "expected_proxy_growth_pct": 48.044142296860684
+    },
+    "5801": {
+      "name": "古河電気工業",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 77.56562281249785,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 7.367278230449514,
+            "operating_income": 139.8069278818853,
+            "eps": 10.260659936718408
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 65.52657868390406,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 7.064235946742969,
+            "operating_income": 10.327728697634653,
+            "eps": 15.71095864543337
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 65.7823005329024,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 7.581730469436465,
+            "operating_income": 11.901273885350317,
+            "eps": 117.21583322565361
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 64.90173170179705,
+          "coverage": 1.0,
+          "targets": {
+            "sales": 8.803573419695422,
+            "operating_income": 35.58400747393677,
+            "eps": 117.56953684343915
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": -0.014293152090069405,
+          "error_pct": 0.5243689441978687,
+          "n": 4,
+          "raw_beta": -0.04287945627020821
+        },
+        "operating_income": {
+          "beta": 3.2552651669208754,
+          "error_pct": 30.354416302023314,
+          "n": 4,
+          "raw_beta": 9.765795500762627
+        },
+        "eps": {
+          "beta": -2.037800720158797,
+          "error_pct": 45.88209380739786,
+          "n": 4,
+          "raw_beta": -6.113402160476391
+        }
+      },
+      "expected_proxy_growth_pct": 45.796061643908445
+    },
+    "6758": {
+      "name": "ソニーグループ",
+      "pairs": [
+        {
+          "period": "2025-06-30",
+          "period_type": "1Q",
+          "proxy_growth_pct": 30.555970830547462,
+          "coverage": 0.9999999999999999,
+          "targets": {
+            "sales": -12.95084520141624,
+            "operating_income": 21.80139445228695,
+            "eps": -79.25223802001054
+          }
+        },
+        {
+          "period": "2025-09-30",
+          "period_type": "2Q",
+          "proxy_growth_pct": 21.644803591577993,
+          "coverage": 0.9999999999999999,
+          "targets": {
+            "sales": -3.1724893641400076,
+            "operating_income": 4.732607537902678,
+            "eps": 6.383205456095475
+          }
+        },
+        {
+          "period": "2025-12-31",
+          "period_type": "3Q",
+          "proxy_growth_pct": 22.937247136275975,
+          "coverage": 0.9999999999999999,
+          "targets": {
+            "sales": -8.556525629380584,
+            "operating_income": 6.6850904933386746,
+            "eps": -143.90682153628953
+          }
+        },
+        {
+          "period": "2026-03-31",
+          "period_type": "FY",
+          "proxy_growth_pct": 24.871479128727035,
+          "coverage": 0.9999999999999999,
+          "targets": {
+            "sales": -3.684816251582923,
+            "operating_income": 2.8670452534638846,
+            "eps": -128.98627523713634
+          }
+        }
+      ],
+      "fits": {
+        "sales": {
+          "beta": -0.3097807461409125,
+          "error_pct": 3.122186252157647,
+          "n": 4,
+          "raw_beta": -0.9293422384227374
+        },
+        "operating_income": {
+          "beta": 0.653806876798366,
+          "error_pct": 4.574440492690284,
+          "n": 4,
+          "raw_beta": 1.961420630395098
+        },
+        "eps": {
+          "beta": -1.0596607869598793,
+          "error_pct": 51.16953635401322,
+          "n": 4,
+          "raw_beta": -3.1789823608796377
+        }
+      },
+      "expected_proxy_growth_pct": 18.713325316876695
+    }
+  }
+}

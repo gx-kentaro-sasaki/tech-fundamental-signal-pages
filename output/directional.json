@@ -1,0 +1,1291 @@
+{
+  "generated_at": "2026-10-20",
+  "objective": "earnings_revision_direction",
+  "model": "own-history robust scoring; XGBoost pending sufficient point-in-time labels",
+  "companies": [
+    {
+      "code": "6857",
+      "name": "アドバンテスト",
+      "focus": "SoCテスタ需要",
+      "direction": "上向き",
+      "signal": 1.068798577044015,
+      "data_coverage": 1.0,
+      "data_coverage_note": "設定したKPIの取得充足率。予測確率・的中確率ではない。",
+      "evidence": [
+        {
+          "id": "ate_customs",
+          "label": "台湾・韓国 半導体検査装置輸入（3カ月累計）",
+          "weight": 0.5,
+          "kind": "customs",
+          "period": "2026-08",
+          "value": 26.915248679943815,
+          "score": -0.13678796503011578,
+          "unit": "3カ月累計 % YoY",
+          "coverage": 1.0,
+          "sources": [
+            "https://publicinfo.trade.gov.tw/",
+            "https://tradedata.go.kr/"
+          ],
+          "contribution": -0.06839398251505789
+        },
+        {
+          "id": "foundry_test",
+          "label": "TSMC・ASE月次売上",
+          "weight": 0.2,
+          "kind": "taiwan",
+          "codes": [
+            "2330",
+            "3711"
+          ],
+          "period": "2026-08",
+          "value": 49.489619755889365,
+          "score": 1.9359627977953637,
+          "unit": "% YoY",
+          "coverage": 1.0,
+          "sources": [
+            "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          ],
+          "contribution": 0.3871925595590728
+        },
+        {
+          "id": "hyperscaler_capex",
+          "label": "Hyperscaler設備投資",
+          "weight": 0.3,
+          "kind": "capex",
+          "period": "2026Q2",
+          "value": 91.12219523709939,
+          "score": 2.5,
+          "unit": "% YoY median",
+          "coverage": 1.0,
+          "sources": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+            "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+            "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+            "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q4",
+            "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+            "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+          ],
+          "contribution": 0.75
+        }
+      ],
+      "signal_history": [
+        {
+          "period": "2018-11",
+          "score": -1.4581971815433998,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2018-12",
+          "score": -1.9154132259151453,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-01",
+          "score": -1.7323257767389375,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-02",
+          "score": -1.755634619718389,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-03",
+          "score": -1.1885016130945092,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-04",
+          "score": -1.385955420917658,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-05",
+          "score": -0.5603247103214513,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-06",
+          "score": -0.14460338032374065,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-07",
+          "score": -0.13144442070139026,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-08",
+          "score": -0.5226989661853265,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-09",
+          "score": -0.30664406502290176,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-10",
+          "score": 0.02266345862977075,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-11",
+          "score": 0.5834334653665461,
+          "direction": "上向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2019-12",
+          "score": 0.8868507431274947,
+          "direction": "上向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-01",
+          "score": -0.07643810576264344,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-02",
+          "score": 0.39775134580549654,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-03",
+          "score": -0.33135892126641836,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-04",
+          "score": 1.347279867036484,
+          "direction": "上向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-05",
+          "score": -0.4955576464068598,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-06",
+          "score": -0.697005684562044,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-07",
+          "score": -0.8466068081861314,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-08",
+          "score": -0.21547829692700873,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-09",
+          "score": -0.5841788257080113,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-10",
+          "score": -0.6832566648025961,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-11",
+          "score": -1.3239934362754677,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2020-12",
+          "score": -1.0770013044545004,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-01",
+          "score": -0.789012849592645,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-02",
+          "score": -0.15247815272517223,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-03",
+          "score": 0.7178192524364638,
+          "direction": "上向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-04",
+          "score": 0.627774834749863,
+          "direction": "上向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-05",
+          "score": 0.29882081062697674,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-06",
+          "score": -0.6753802873524619,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-07",
+          "score": -0.9587158452400204,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-08",
+          "score": -0.7484218776407122,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-09",
+          "score": -0.18376966128312935,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-10",
+          "score": 0.446458434679035,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-11",
+          "score": 0.6616009396795309,
+          "direction": "上向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2021-12",
+          "score": 0.9268832495350094,
+          "direction": "上向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-01",
+          "score": 0.3655517405952594,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-02",
+          "score": 0.021997323451301988,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-03",
+          "score": -0.6390593998637861,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-04",
+          "score": -0.522787656853682,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-05",
+          "score": 0.27513071710224174,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-06",
+          "score": 0.32684763760817326,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-07",
+          "score": 0.5011264609333012,
+          "direction": "上向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-08",
+          "score": -0.24364472607451274,
+          "direction": "横ばい",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-09",
+          "score": -0.7396283789012424,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-10",
+          "score": -1.4949851195015045,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-11",
+          "score": -1.6079121821202644,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2022-12",
+          "score": -2.0581940527441533,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2023-01",
+          "score": -2.0532296991880146,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2023-02",
+          "score": -2.085709572492922,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2023-03",
+          "score": -1.3543336217605242,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2023-04",
+          "score": -1.3228563168785443,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2023-05",
+          "score": -1.2624731419351505,
+          "direction": "下向き",
+          "kpi_count": 1
+        },
+        {
+          "period": "2023-06",
+          "score": -1.1675182819627161,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-07",
+          "score": -1.0658246892196275,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-08",
+          "score": -1.1857814933431015,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-09",
+          "score": -1.1298188247176788,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-10",
+          "score": 0.2493388186224828,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-11",
+          "score": 0.5733067053068763,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-12",
+          "score": 1.4280956390070552,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-01",
+          "score": 1.8652088425985227,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-02",
+          "score": 1.6588156247467765,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-03",
+          "score": 0.5416079144434762,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-04",
+          "score": 1.041987882548369,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-05",
+          "score": 1.4004087245950503,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-06",
+          "score": 2.0104848625149394,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-07",
+          "score": 2.112269931217686,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-08",
+          "score": 1.9821232385316327,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-09",
+          "score": 2.04097405614113,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-10",
+          "score": 1.9225447194840897,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-11",
+          "score": 1.9282041981140996,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-12",
+          "score": 2.150397077573878,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-01",
+          "score": 1.894478265174118,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-02",
+          "score": 2.077619139210023,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-03",
+          "score": 2.116957382837935,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-04",
+          "score": 2.055270574122,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-05",
+          "score": 1.881042150589969,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-06",
+          "score": 1.8001796967305586,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-07",
+          "score": 1.6663764660521299,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-08",
+          "score": 1.4913012727172519,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-09",
+          "score": 0.7305548515837074,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-10",
+          "score": -0.15989765835466974,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-11",
+          "score": 0.07732836050602941,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-12",
+          "score": -0.012076972909203171,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-01",
+          "score": 0.8468788487693261,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-02",
+          "score": 0.5819083928850102,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-03",
+          "score": 1.0946297341031213,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-04",
+          "score": 0.6224904654627933,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-05",
+          "score": 0.7372697169141242,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-06",
+          "score": 0.7124680385453747,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-07",
+          "score": 0.4663091561993978,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-08",
+          "score": 0.455426538634307,
+          "direction": "上向き",
+          "kpi_count": 2
+        }
+      ],
+      "history_note": "各時点より前の履歴だけで標準化。履歴のないHyperscaler Capexは除外。",
+      "interpretation": "SoCテスタ需要に関連する3系列のうち、上向き2、下向き0。"
+    },
+    {
+      "code": "6762",
+      "name": "TDK",
+      "focus": "受動部品・電源・データセンター需要",
+      "direction": "上向き",
+      "signal": 1.468407656381678,
+      "data_coverage": 1.0,
+      "data_coverage_note": "設定したKPIの取得充足率。予測確率・的中確率ではない。",
+      "evidence": [
+        {
+          "id": "passive_power",
+          "label": "Yageo・Delta月次売上",
+          "weight": 0.35,
+          "kind": "taiwan",
+          "codes": [
+            "2327",
+            "2308"
+          ],
+          "period": "2026-08",
+          "value": 43.374079805371764,
+          "score": 1.730764070968978,
+          "unit": "% YoY",
+          "coverage": 1.0,
+          "sources": [
+            "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          ],
+          "contribution": 0.6057674248391423
+        },
+        {
+          "id": "electronics_sets",
+          "label": "Hon Hai・MediaTek月次売上",
+          "weight": 0.35,
+          "kind": "taiwan",
+          "codes": [
+            "2317",
+            "2454"
+          ],
+          "period": "2026-09",
+          "value": 20.19207425295627,
+          "score": 0.32182923297867366,
+          "unit": "% YoY",
+          "coverage": 1.0,
+          "sources": [
+            "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_9_0.html"
+          ],
+          "contribution": 0.11264023154253577
+        },
+        {
+          "id": "hyperscaler_capex",
+          "label": "Hyperscaler設備投資",
+          "weight": 0.3,
+          "kind": "capex",
+          "period": "2026Q2",
+          "value": 91.12219523709939,
+          "score": 2.5,
+          "unit": "% YoY median",
+          "coverage": 1.0,
+          "sources": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+            "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+            "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+            "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q4",
+            "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+            "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+          ],
+          "contribution": 0.75
+        }
+      ],
+      "signal_history": [
+        {
+          "period": "2023-06",
+          "score": -0.7791438582621308,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-07",
+          "score": -0.18141769933014176,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-08",
+          "score": 0.13908437819977526,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-09",
+          "score": -0.8959043297044981,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-10",
+          "score": 0.9236392841428797,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-11",
+          "score": 0.7887909979189772,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-12",
+          "score": 0.05775556880058193,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-01",
+          "score": 2.5,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-02",
+          "score": 0.4033732380686986,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-03",
+          "score": 1.2262175737110403,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-04",
+          "score": 2.22014707657972,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-05",
+          "score": 1.8295808899716322,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-06",
+          "score": 1.211636134448864,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-07",
+          "score": 2.0046640386818346,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-08",
+          "score": 0.9258787993385279,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-09",
+          "score": 0.6613200380430745,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-10",
+          "score": 0.7956342478120791,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-11",
+          "score": 0.23147345654031054,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-12",
+          "score": 0.8333698449627436,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-01",
+          "score": 0.2821158036884943,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-02",
+          "score": 1.620907181435586,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-03",
+          "score": 0.964339045313783,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-04",
+          "score": 0.516976399549521,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-05",
+          "score": -0.10963766882451734,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-06",
+          "score": 0.6414896277642876,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-07",
+          "score": -0.22220939908500517,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-08",
+          "score": 0.3351690858825041,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-09",
+          "score": 1.506596919805031,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-10",
+          "score": 0.8378504680566454,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-11",
+          "score": 1.2317934740323382,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-12",
+          "score": 1.794332626872452,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-01",
+          "score": 1.042840087652698,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-02",
+          "score": -0.09166246292982454,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-03",
+          "score": 1.3336912907488345,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-04",
+          "score": 0.6743238222931897,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-05",
+          "score": 1.3449678825550264,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-06",
+          "score": 1.478817202805062,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-07",
+          "score": 1.7273440445762673,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-08",
+          "score": 1.8938147312085853,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-09",
+          "score": 0.32182923297867366,
+          "direction": "横ばい",
+          "kpi_count": 1
+        }
+      ],
+      "history_note": "各時点より前の履歴だけで標準化。履歴のないHyperscaler Capexは除外。",
+      "interpretation": "受動部品・電源・データセンター需要に関連する3系列のうち、上向き2、下向き0。"
+    },
+    {
+      "code": "4062",
+      "name": "イビデン",
+      "focus": "AI向けICパッケージ基板需要",
+      "direction": "上向き",
+      "signal": 1.8484658330926451,
+      "data_coverage": 1.0,
+      "data_coverage_note": "設定したKPIの取得充足率。予測確率・的中確率ではない。",
+      "evidence": [
+        {
+          "id": "abf_substrates",
+          "label": "Unimicron・Kinsus・Nan Ya PCB月次売上",
+          "weight": 0.45,
+          "kind": "taiwan",
+          "codes": [
+            "3037",
+            "3189",
+            "8046"
+          ],
+          "period": "2026-09",
+          "value": 57.815530565546894,
+          "score": 2.149952503970002,
+          "unit": "% YoY",
+          "coverage": 1.0,
+          "sources": [
+            "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_9_0.html"
+          ],
+          "contribution": 0.967478626786501
+        },
+        {
+          "id": "ai_server_odm",
+          "label": "Quanta・Wiwynn月次売上",
+          "weight": 0.25,
+          "kind": "taiwan",
+          "codes": [
+            "2382",
+            "6669"
+          ],
+          "period": "2026-09",
+          "value": 88.33706148724423,
+          "score": 0.5239488252245768,
+          "unit": "% YoY",
+          "coverage": 1.0,
+          "sources": [
+            "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_9_0.html"
+          ],
+          "contribution": 0.1309872063061442
+        },
+        {
+          "id": "hyperscaler_capex",
+          "label": "Hyperscaler設備投資",
+          "weight": 0.3,
+          "kind": "capex",
+          "period": "2026Q2",
+          "value": 91.12219523709939,
+          "score": 2.5,
+          "unit": "% YoY median",
+          "coverage": 1.0,
+          "sources": [
+            "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+            "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+            "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+            "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q4",
+            "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+            "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4"
+          ],
+          "contribution": 0.75
+        }
+      ],
+      "signal_history": [
+        {
+          "period": "2023-06",
+          "score": -1.707019505188798,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-07",
+          "score": -1.0920555229030238,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-08",
+          "score": -0.9709571557578066,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-09",
+          "score": -0.936508745930717,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-10",
+          "score": -0.5305676042879133,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-11",
+          "score": -0.45105398890629606,
+          "direction": "下向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2023-12",
+          "score": -0.04343116483889096,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-01",
+          "score": 0.8832924734635542,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-02",
+          "score": 0.9879965745953669,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-03",
+          "score": 0.3901635361859779,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-04",
+          "score": 1.2353943711536408,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-05",
+          "score": 1.4373416423031227,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-06",
+          "score": 0.9809545548365518,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-07",
+          "score": 1.2668392042432033,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-08",
+          "score": 1.2011932533070668,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-09",
+          "score": 1.6164106912160374,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-10",
+          "score": 0.8854724056682312,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-11",
+          "score": 0.6787063698819578,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2024-12",
+          "score": 1.1038024335286034,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-01",
+          "score": 0.8675703131292358,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-02",
+          "score": 1.300897645845842,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-03",
+          "score": 1.362643851683802,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-04",
+          "score": 1.1630660895079061,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-05",
+          "score": 1.1369305618439551,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-06",
+          "score": 1.1175540676272813,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-07",
+          "score": 0.7544742056300588,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-08",
+          "score": 0.848024912847763,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-09",
+          "score": 0.7257923646840184,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-10",
+          "score": 1.3109093064210948,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-11",
+          "score": 1.2468132293581027,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2025-12",
+          "score": 1.0516929819247711,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-01",
+          "score": 1.4600270586073438,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-02",
+          "score": 0.2911741543016832,
+          "direction": "横ばい",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-03",
+          "score": 0.5227151873463715,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-04",
+          "score": 0.7153765936436305,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-05",
+          "score": 0.7651117522404527,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-06",
+          "score": 0.9164515876667125,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-07",
+          "score": 1.192303396944571,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-08",
+          "score": 1.2037245235263785,
+          "direction": "上向き",
+          "kpi_count": 2
+        },
+        {
+          "period": "2026-09",
+          "score": 1.5692369044180645,
+          "direction": "上向き",
+          "kpi_count": 2
+        }
+      ],
+      "history_note": "各時点より前の履歴だけで標準化。履歴のないHyperscaler Capexは除外。",
+      "interpretation": "AI向けICパッケージ基板需要に関連する3系列のうち、上向き3、下向き0。"
+    }
+  ],
+  "source_health": {
+    "taiwan_monthly": {
+      "status": "connected",
+      "observations": 1006,
+      "range": [
+        "2022-10",
+        "2026-09"
+      ]
+    },
+    "ate_customs": {
+      "status": "connected",
+      "range": "2017-latest embedded refresh",
+      "smoothing": "trailing 3-month aggregate YoY; backward-looking only"
+    },
+    "hyperscaler_capex": {
+      "status": "connected",
+      "as_of": "2026-10-08"
+    },
+    "jquants_labels": {
+      "status": "insufficient",
+      "note": "Free plan provides only 3-5 comparable observations per company"
+    }
+  }
+}

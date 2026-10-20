@@ -1,0 +1,223 @@
+{
+  "company": {
+    "code": "4062",
+    "name": "イビデン"
+  },
+  "feature": "当四半期最初の2カ月の台湾同業・需要先月次売上YoY、その前四半期からの変化",
+  "method": "fixed-rule pseudo out-of-sample comparison; no future-quarter rows in each calculation",
+  "point_in_time_certified": false,
+  "leakage_audit": {
+    "calculation_future_rows": "not used",
+    "feature_window": "quarter months 1-2 only",
+    "model_fitting": "none; fixed ±10 percentage-point rule",
+    "publication_timestamp": "not stored",
+    "data_vintage": "current revised Taiwan monthly series; original vintages unavailable",
+    "selection_bias": "peer groups and threshold selected with full-sample domain knowledge",
+    "conclusion": "provisional backtest, not a certified point-in-time result"
+  },
+  "targets": {
+    "sales": {
+      "target": "当四半期売上高YoYの前四半期比方向（±10pt）",
+      "observations": 7,
+      "period": [
+        "2023Q3",
+        "2025Q1"
+      ],
+      "model": {
+        "accuracy": 0.5714285714285714,
+        "balanced_accuracy": 0.7999999999999999,
+        "confusion_matrix": {
+          "上向き": {
+            "上向き": 1,
+            "横ばい": 0,
+            "下向き": 0
+          },
+          "横ばい": {
+            "上向き": 3,
+            "横ばい": 2,
+            "下向き": 0
+          },
+          "下向き": {
+            "上向き": 0,
+            "横ばい": 0,
+            "下向き": 1
+          }
+        }
+      },
+      "records": [
+        {
+          "quarter": "2023Q3",
+          "information_cutoff": "2023Q3 month 2",
+          "peer_revenue_yoy_pct": -32.94766120779862,
+          "peer_yoy_change_pp": -17.002117848133064,
+          "predicted": "下向き",
+          "actual": "下向き",
+          "sales_yoy_pct": -19.279721675154647,
+          "sales_yoy_change_pp": -15.49913215950136
+        },
+        {
+          "quarter": "2023Q4",
+          "information_cutoff": "2023Q4 month 2",
+          "peer_revenue_yoy_pct": -26.980827947389017,
+          "peer_yoy_change_pp": 5.966833260409601,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": -10.2568330391263,
+          "sales_yoy_change_pp": 9.022888636028346
+        },
+        {
+          "quarter": "2024Q1",
+          "information_cutoff": "2024Q1 month 2",
+          "peer_revenue_yoy_pct": -0.6109378514877961,
+          "peer_yoy_change_pp": 26.36989009590122,
+          "predicted": "上向き",
+          "actual": "横ばい",
+          "sales_yoy_pct": -10.433437760241105,
+          "sales_yoy_change_pp": -0.17660472111480452
+        },
+        {
+          "quarter": "2024Q2",
+          "information_cutoff": "2024Q2 month 2",
+          "peer_revenue_yoy_pct": 22.241876593047103,
+          "peer_yoy_change_pp": 22.8528144445349,
+          "predicted": "上向き",
+          "actual": "横ばい",
+          "sales_yoy_pct": -6.745171826936291,
+          "sales_yoy_change_pp": 3.6882659333048142
+        },
+        {
+          "quarter": "2024Q3",
+          "information_cutoff": "2024Q3 month 2",
+          "peer_revenue_yoy_pct": 37.17662105967992,
+          "peer_yoy_change_pp": 14.934744466632814,
+          "predicted": "上向き",
+          "actual": "横ばい",
+          "sales_yoy_pct": 0.35039069637463616,
+          "sales_yoy_change_pp": 7.095562523310927
+        },
+        {
+          "quarter": "2024Q4",
+          "information_cutoff": "2024Q4 month 2",
+          "peer_revenue_yoy_pct": 33.73345638971625,
+          "peer_yoy_change_pp": -3.4431646699636644,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "sales_yoy_pct": -4.079890194213576,
+          "sales_yoy_change_pp": -4.430280890588212
+        },
+        {
+          "quarter": "2025Q1",
+          "information_cutoff": "2025Q1 month 2",
+          "peer_revenue_yoy_pct": 55.78647564543847,
+          "peer_yoy_change_pp": 22.05301925572222,
+          "predicted": "上向き",
+          "actual": "上向き",
+          "sales_yoy_pct": 9.690737625077483,
+          "sales_yoy_change_pp": 13.77062781929106
+        }
+      ]
+    },
+    "operating_profit": {
+      "target": "当四半期営業利益YoYの前四半期比方向（±10pt）",
+      "observations": 7,
+      "period": [
+        "2023Q3",
+        "2025Q1"
+      ],
+      "model": {
+        "accuracy": 0.5714285714285714,
+        "balanced_accuracy": 0.5833333333333334,
+        "confusion_matrix": {
+          "上向き": {
+            "上向き": 3,
+            "横ばい": 0,
+            "下向き": 1
+          },
+          "横ばい": {
+            "上向き": 0,
+            "横ばい": 1,
+            "下向き": 0
+          },
+          "下向き": {
+            "上向き": 1,
+            "横ばい": 1,
+            "下向き": 0
+          }
+        }
+      },
+      "records": [
+        {
+          "quarter": "2023Q3",
+          "information_cutoff": "2023Q3 month 2",
+          "peer_revenue_yoy_pct": -32.94766120779862,
+          "peer_yoy_change_pp": -17.002117848133064,
+          "predicted": "下向き",
+          "actual": "上向き",
+          "operating_profit_yoy_pct": -31.842161698477376,
+          "operating_profit_yoy_change_pp": 22.931457628185235
+        },
+        {
+          "quarter": "2023Q4",
+          "information_cutoff": "2023Q4 month 2",
+          "peer_revenue_yoy_pct": -26.980827947389017,
+          "peer_yoy_change_pp": 5.966833260409601,
+          "predicted": "横ばい",
+          "actual": "横ばい",
+          "operating_profit_yoy_pct": -34.87936877244449,
+          "operating_profit_yoy_change_pp": -3.03720707396711
+        },
+        {
+          "quarter": "2024Q1",
+          "information_cutoff": "2024Q1 month 2",
+          "peer_revenue_yoy_pct": -0.6109378514877961,
+          "peer_yoy_change_pp": 26.36989009590122,
+          "predicted": "上向き",
+          "actual": "上向き",
+          "operating_profit_yoy_pct": -5.059443997497093,
+          "operating_profit_yoy_change_pp": 29.819924774947395
+        },
+        {
+          "quarter": "2024Q2",
+          "information_cutoff": "2024Q2 month 2",
+          "peer_revenue_yoy_pct": 22.241876593047103,
+          "peer_yoy_change_pp": 22.8528144445349,
+          "predicted": "上向き",
+          "actual": "上向き",
+          "operating_profit_yoy_pct": 38.06380638063806,
+          "operating_profit_yoy_change_pp": 43.123250378135154
+        },
+        {
+          "quarter": "2024Q3",
+          "information_cutoff": "2024Q3 month 2",
+          "peer_revenue_yoy_pct": 37.17662105967992,
+          "peer_yoy_change_pp": 14.934744466632814,
+          "predicted": "上向き",
+          "actual": "下向き",
+          "operating_profit_yoy_pct": 8.344345856144987,
+          "operating_profit_yoy_change_pp": -29.719460524493076
+        },
+        {
+          "quarter": "2024Q4",
+          "information_cutoff": "2024Q4 month 2",
+          "peer_revenue_yoy_pct": 33.73345638971625,
+          "peer_yoy_change_pp": -3.4431646699636644,
+          "predicted": "横ばい",
+          "actual": "下向き",
+          "operating_profit_yoy_pct": -50.71844660194175,
+          "operating_profit_yoy_change_pp": -59.06279245808673
+        },
+        {
+          "quarter": "2025Q1",
+          "information_cutoff": "2025Q1 month 2",
+          "peer_revenue_yoy_pct": 55.78647564543847,
+          "peer_yoy_change_pp": 22.05301925572222,
+          "predicted": "上向き",
+          "actual": "上向き",
+          "operating_profit_yoy_pct": 20.177007814706705,
+          "operating_profit_yoy_change_pp": 70.89545441664845
+        }
+      ]
+    }
+  },
+  "earnings_source": "https://www.ibiden.com/ir/news/financial/"
+}

@@ -1,0 +1,1059 @@
+{
+  "generated_at": "2026-10-19",
+  "signal_month": "2026-08",
+  "news_file": "/Users/kentaro.sasaki/codes/ml/sector-news-jp/docs/data/2026-10-19/technology.json",
+  "point_in_time_safe": false,
+  "warning": "台湾月次履歴に各観測の初回取得日時がないため、現時点ランキング専用。過去リターン検証には使用不可。",
+  "objective": "earnings_forecast",
+  "method": {
+    "technical_features": [],
+    "formula": "forecast = baseline * (1 + calibrated_beta * proxy_surprise_pp / 100)"
+  },
+  "forecasts": [
+    {
+      "code": "8035",
+      "name": "東京エレクトロン",
+      "theme": "前工程装置",
+      "fiscal_period": "2026-03-31",
+      "observed_proxy_growth_pct": 68.40648487402724,
+      "expected_proxy_growth_pct": 31.05032372120547,
+      "proxy_surprise_pp": 37.35616115282177,
+      "forecasts": {
+        "sales": {
+          "baseline": 2410000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 593000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 1200.05,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "6857",
+      "name": "アドバンテスト",
+      "theme": "半導体テスト",
+      "fiscal_period": "2027-03-31",
+      "observed_proxy_growth_pct": 83.75348500211058,
+      "expected_proxy_growth_pct": 31.613030516871138,
+      "proxy_surprise_pp": 52.140454485239445,
+      "forecasts": {
+        "sales": {
+          "baseline": 1420000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 627500000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 641.61,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "6146",
+      "name": "ディスコ",
+      "theme": "切断・研削",
+      "fiscal_period": "2026-03-31",
+      "observed_proxy_growth_pct": 70.1444803993559,
+      "expected_proxy_growth_pct": 31.996158964085396,
+      "proxy_surprise_pp": 38.1483214352705,
+      "forecasts": {
+        "sales": {
+          "baseline": 419000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 172100000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 1165.72,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "7735",
+      "name": "SCREENホールディングス",
+      "theme": "洗浄装置",
+      "fiscal_period": "2027-03-31",
+      "observed_proxy_growth_pct": 59.30778730432312,
+      "expected_proxy_growth_pct": 26.7010250020851,
+      "proxy_surprise_pp": 32.606762302238025,
+      "forecasts": {
+        "sales": {
+          "baseline": 725000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 150000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 581.74,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック",
+      "theme": "マスク検査",
+      "fiscal_period": "2026-06-30",
+      "observed_proxy_growth_pct": 67.18934173079865,
+      "expected_proxy_growth_pct": 30.657264373636927,
+      "proxy_surprise_pp": 36.53207735716172,
+      "forecasts": {
+        "sales": {
+          "baseline": 220000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 100000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 801.89,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "6723",
+      "name": "ルネサスエレクトロニクス",
+      "theme": "車載・産業半導体",
+      "fiscal_period": null,
+      "observed_proxy_growth_pct": 76.2368282892619,
+      "expected_proxy_growth_pct": 8.887982190429685,
+      "proxy_surprise_pp": 67.34884609883221,
+      "forecasts": {
+        "sales": {
+          "baseline": null,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": null,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": null,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "6981",
+      "name": "村田製作所",
+      "theme": "電子部品",
+      "fiscal_period": "2027-03-31",
+      "observed_proxy_growth_pct": 89.15015617693294,
+      "expected_proxy_growth_pct": 18.361917556918378,
+      "proxy_surprise_pp": 70.78823862001457,
+      "forecasts": {
+        "sales": {
+          "baseline": 1960000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 380000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 160.96,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "6976",
+      "name": "太陽誘電",
+      "theme": "電子部品",
+      "fiscal_period": "2027-03-31",
+      "observed_proxy_growth_pct": 84.54792834097921,
+      "expected_proxy_growth_pct": 18.37884745086317,
+      "proxy_surprise_pp": 66.16908089011605,
+      "forecasts": {
+        "sales": {
+          "baseline": 384000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 30000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 143.94,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "6762",
+      "name": "TDK",
+      "theme": "電子部品・電池",
+      "fiscal_period": "2027-03-31",
+      "observed_proxy_growth_pct": 88.21627234138091,
+      "expected_proxy_growth_pct": 16.088738236334038,
+      "proxy_surprise_pp": 72.12753410504688,
+      "forecasts": {
+        "sales": {
+          "baseline": 2580000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 295000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 118.54,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "5803",
+      "name": "フジクラ",
+      "theme": "AIデータセンター配線",
+      "fiscal_period": "2027-03-31",
+      "observed_proxy_growth_pct": 111.45794965425428,
+      "expected_proxy_growth_pct": 48.044142296860684,
+      "proxy_surprise_pp": 63.413807357393594,
+      "forecasts": {
+        "sales": {
+          "baseline": 1462000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 310000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 138.31,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "5801",
+      "name": "古河電気工業",
+      "theme": "光通信・配線",
+      "fiscal_period": "2027-03-31",
+      "observed_proxy_growth_pct": 106.60497750240481,
+      "expected_proxy_growth_pct": 45.796061643908445,
+      "proxy_surprise_pp": 60.80891585849636,
+      "forecasts": {
+        "sales": {
+          "baseline": 1460000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 95000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": 116.56,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    },
+    {
+      "code": "6758",
+      "name": "ソニーグループ",
+      "theme": "イメージセンサー",
+      "fiscal_period": "2027-03-31",
+      "observed_proxy_growth_pct": 82.36294613220232,
+      "expected_proxy_growth_pct": 18.713325316876695,
+      "proxy_surprise_pp": 63.64962081532563,
+      "forecasts": {
+        "sales": {
+          "baseline": 12300000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "operating_income": {
+          "baseline": 1600000000000.0,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        },
+        "eps": {
+          "baseline": null,
+          "revision_pct": null,
+          "forecast": null,
+          "low": null,
+          "high": null
+        }
+      },
+      "ready": false,
+      "missing_reason": "基準予想・市場期待、または最低8観測の学習履歴が不足"
+    }
+  ],
+  "baseline_connected_count": 11,
+  "complete_baseline_count": 10,
+  "ready_count": 0,
+  "raw": {
+    "nowcast": {
+      "8035": 0.6840648487402724,
+      "6857": 0.8375348500211057,
+      "6146": 0.701444803993559,
+      "7735": 0.5930778730432312,
+      "6920": 0.6718934173079865,
+      "6723": 0.7623682828926189,
+      "6981": 0.8915015617693294,
+      "6976": 0.8454792834097922,
+      "6762": 0.8821627234138092,
+      "5803": 1.1145794965425428,
+      "5801": 1.066049775024048,
+      "6758": 0.8236294613220233
+    },
+    "news": {
+      "8035": 0.0,
+      "6857": 1.0,
+      "6146": 0.0,
+      "7735": null,
+      "6920": null,
+      "6723": null,
+      "6981": null,
+      "6976": null,
+      "6762": null,
+      "5803": null,
+      "5801": null,
+      "6758": null
+    }
+  },
+  "details": {
+    "nowcast": {
+      "8035": {
+        "coverage": 0.9999999999999999,
+        "proxies": [
+          {
+            "code": "2330",
+            "weight": 0.35,
+            "yoy": 0.5332005371471298,
+            "mom": 0.10099818994181087,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2303",
+            "weight": 0.1,
+            "yoy": 0.30714412915030076,
+            "mom": 0.05035202709942865,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3711",
+            "weight": 0.1,
+            "yoy": 0.4565918579706576,
+            "mom": 0.11470924994667864,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2383",
+            "weight": 0.1,
+            "yoy": 1.2984671742960732,
+            "mom": 0.04888351969713911,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3037",
+            "weight": 0.1,
+            "yoy": 0.5625723917867718,
+            "mom": 0.09178757960449091,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "6669",
+            "weight": 0.1,
+            "yoy": 0.5035813251850272,
+            "mom": 0.22624937832204184,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3443",
+            "weight": 0.15,
+            "yoy": 1.110204372171911,
+            "mom": 0.012293622826160311,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "6857": {
+        "coverage": 1.0,
+        "proxies": [
+          {
+            "code": "2330",
+            "weight": 0.25,
+            "yoy": 0.5332005371471298,
+            "mom": 0.10099818994181087,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2454",
+            "weight": 0.15,
+            "yoy": 0.44081252093451795,
+            "mom": 0.32405268042676916,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3711",
+            "weight": 0.2,
+            "yoy": 0.4565918579706576,
+            "mom": 0.11470924994667864,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "6669",
+            "weight": 0.15,
+            "yoy": 0.5035813251850272,
+            "mom": 0.22624937832204184,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2382",
+            "weight": 0.1,
+            "yoy": 1.77453640698528,
+            "mom": 0.15752371011347566,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3231",
+            "weight": 0.15,
+            "yoy": 1.6648409855053443,
+            "mom": 0.4926554412746218,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "6146": {
+        "coverage": 1.0,
+        "proxies": [
+          {
+            "code": "2330",
+            "weight": 0.25,
+            "yoy": 0.5332005371471298,
+            "mom": 0.10099818994181087,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3711",
+            "weight": 0.2,
+            "yoy": 0.4565918579706576,
+            "mom": 0.11470924994667864,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "6669",
+            "weight": 0.15,
+            "yoy": 0.5035813251850272,
+            "mom": 0.22624937832204184,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3037",
+            "weight": 0.15,
+            "yoy": 0.5625723917867718,
+            "mom": 0.09178757960449091,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2383",
+            "weight": 0.1,
+            "yoy": 1.2984671742960732,
+            "mom": 0.04888351969713911,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3443",
+            "weight": 0.15,
+            "yoy": 1.110204372171911,
+            "mom": 0.012293622826160311,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "7735": {
+        "coverage": 1.0,
+        "proxies": [
+          {
+            "code": "2330",
+            "weight": 0.35,
+            "yoy": 0.5332005371471298,
+            "mom": 0.10099818994181087,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2303",
+            "weight": 0.15,
+            "yoy": 0.30714412915030076,
+            "mom": 0.05035202709942865,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3711",
+            "weight": 0.15,
+            "yoy": 0.4565918579706576,
+            "mom": 0.11470924994667864,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "6669",
+            "weight": 0.1,
+            "yoy": 0.5035813251850272,
+            "mom": 0.22624937832204184,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3037",
+            "weight": 0.1,
+            "yoy": 0.5625723917867718,
+            "mom": 0.09178757960449091,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3443",
+            "weight": 0.15,
+            "yoy": 1.110204372171911,
+            "mom": 0.012293622826160311,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "6920": {
+        "coverage": 1.0,
+        "proxies": [
+          {
+            "code": "2330",
+            "weight": 0.45,
+            "yoy": 0.5332005371471298,
+            "mom": 0.10099818994181087,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2303",
+            "weight": 0.1,
+            "yoy": 0.30714412915030076,
+            "mom": 0.05035202709942865,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "6669",
+            "weight": 0.1,
+            "yoy": 0.5035813251850272,
+            "mom": 0.22624937832204184,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3037",
+            "weight": 0.1,
+            "yoy": 0.5625723917867718,
+            "mom": 0.09178757960449091,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3443",
+            "weight": 0.25,
+            "yoy": 1.110204372171911,
+            "mom": 0.012293622826160311,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "6723": {
+        "coverage": 1.0,
+        "proxies": [
+          {
+            "code": "2303",
+            "weight": 0.2,
+            "yoy": 0.30714412915030076,
+            "mom": 0.05035202709942865,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2454",
+            "weight": 0.1,
+            "yoy": 0.44081252093451795,
+            "mom": 0.32405268042676916,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2327",
+            "weight": 0.2,
+            "yoy": 0.5179961056041194,
+            "mom": 0.012460830535233836,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2308",
+            "weight": 0.2,
+            "yoy": 0.349485490503316,
+            "mom": -0.037081029332851845,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2379",
+            "weight": 0.15,
+            "yoy": 0.2808300068158056,
+            "mom": -0.0338124049594154,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2344",
+            "weight": 0.15,
+            "yoy": 2.894275644959992,
+            "mom": 0.020002779647497304,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "6981": {
+        "coverage": 0.9,
+        "proxies": [
+          {
+            "code": "2317",
+            "weight": 0.2,
+            "yoy": 0.5197813152256481,
+            "mom": -0.026144946713083317,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2382",
+            "weight": 0.15,
+            "yoy": 1.77453640698528,
+            "mom": 0.15752371011347566,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3231",
+            "weight": 0.15,
+            "yoy": 1.6648409855053443,
+            "mom": 0.4926554412746218,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "4938",
+            "weight": 0.1,
+            "yoy": 0.3411291108532579,
+            "mom": 0.026620623152055378,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2327",
+            "weight": 0.15,
+            "yoy": 0.5179961056041194,
+            "mom": 0.012460830535233836,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2308",
+            "weight": 0.15,
+            "yoy": 0.349485490503316,
+            "mom": -0.037081029332851845,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "6976": {
+        "coverage": 1.0,
+        "proxies": [
+          {
+            "code": "2317",
+            "weight": 0.2,
+            "yoy": 0.5197813152256481,
+            "mom": -0.026144946713083317,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2382",
+            "weight": 0.15,
+            "yoy": 1.77453640698528,
+            "mom": 0.15752371011347566,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3231",
+            "weight": 0.15,
+            "yoy": 1.6648409855053443,
+            "mom": 0.4926554412746218,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "4938",
+            "weight": 0.1,
+            "yoy": 0.3411291108532579,
+            "mom": 0.026620623152055378,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2327",
+            "weight": 0.2,
+            "yoy": 0.5179961056041194,
+            "mom": 0.012460830535233836,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2308",
+            "weight": 0.2,
+            "yoy": 0.349485490503316,
+            "mom": -0.037081029332851845,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "6762": {
+        "coverage": 0.9,
+        "proxies": [
+          {
+            "code": "2317",
+            "weight": 0.15,
+            "yoy": 0.5197813152256481,
+            "mom": -0.026144946713083317,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2382",
+            "weight": 0.15,
+            "yoy": 1.77453640698528,
+            "mom": 0.15752371011347566,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3231",
+            "weight": 0.15,
+            "yoy": 1.6648409855053443,
+            "mom": 0.4926554412746218,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "4938",
+            "weight": 0.15,
+            "yoy": 0.3411291108532579,
+            "mom": 0.026620623152055378,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2327",
+            "weight": 0.15,
+            "yoy": 0.5179961056041194,
+            "mom": 0.012460830535233836,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2308",
+            "weight": 0.15,
+            "yoy": 0.349485490503316,
+            "mom": -0.037081029332851845,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "5803": {
+        "coverage": 1.0,
+        "proxies": [
+          {
+            "code": "2382",
+            "weight": 0.2,
+            "yoy": 1.77453640698528,
+            "mom": 0.15752371011347566,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3231",
+            "weight": 0.25,
+            "yoy": 1.6648409855053443,
+            "mom": 0.4926554412746218,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "6669",
+            "weight": 0.2,
+            "yoy": 0.5035813251850272,
+            "mom": 0.22624937832204184,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2317",
+            "weight": 0.1,
+            "yoy": 0.5197813152256481,
+            "mom": -0.026144946713083317,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2376",
+            "weight": 0.1,
+            "yoy": 0.9842707910183297,
+            "mom": 0.07210115423647556,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2356",
+            "weight": 0.15,
+            "yoy": 0.35826901629989405,
+            "mom": -0.07675596962853903,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "5801": {
+        "coverage": 1.0,
+        "proxies": [
+          {
+            "code": "2382",
+            "weight": 0.2,
+            "yoy": 1.77453640698528,
+            "mom": 0.15752371011347566,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3231",
+            "weight": 0.2,
+            "yoy": 1.6648409855053443,
+            "mom": 0.4926554412746218,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "6669",
+            "weight": 0.15,
+            "yoy": 0.5035813251850272,
+            "mom": 0.22624937832204184,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2317",
+            "weight": 0.1,
+            "yoy": 0.5197813152256481,
+            "mom": -0.026144946713083317,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2376",
+            "weight": 0.15,
+            "yoy": 0.9842707910183297,
+            "mom": 0.07210115423647556,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2356",
+            "weight": 0.2,
+            "yoy": 0.35826901629989405,
+            "mom": -0.07675596962853903,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      },
+      "6758": {
+        "coverage": 0.7499999999999999,
+        "proxies": [
+          {
+            "code": "2317",
+            "weight": 0.2,
+            "yoy": 0.5197813152256481,
+            "mom": -0.026144946713083317,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "4938",
+            "weight": 0.15,
+            "yoy": 0.3411291108532579,
+            "mom": 0.026620623152055378,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2382",
+            "weight": 0.1,
+            "yoy": 1.77453640698528,
+            "mom": 0.15752371011347566,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "3231",
+            "weight": 0.1,
+            "yoy": 1.6648409855053443,
+            "mom": 0.4926554412746218,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2454",
+            "weight": 0.1,
+            "yoy": 0.44081252093451795,
+            "mom": 0.32405268042676916,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          },
+          {
+            "code": "2330",
+            "weight": 0.1,
+            "yoy": 0.5332005371471298,
+            "mom": 0.10099818994181087,
+            "source": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_115_8_0.html"
+          }
+        ]
+      }
+    },
+    "news": {
+      "8035": [
+        {
+          "code": "8035",
+          "name": "東京エレクトロン",
+          "direction": "mixed",
+          "rationale": "AI株の焦点は設備投資から採算への波及が見込まれるが、需要の実現時期と費用負担には不確実性が残る。"
+        }
+      ],
+      "6857": [
+        {
+          "code": "6857",
+          "name": "アドバンテスト",
+          "direction": "positive",
+          "rationale": "中国がAI技術の輸出規制案の波及が見込まれるが、需要の実現時期と費用負担には不確実性が残る。"
+        }
+      ],
+      "6146": [
+        {
+          "code": "6146",
+          "name": "ディスコ",
+          "direction": "mixed",
+          "rationale": "AIインフラの資金調達条件が厳格化の波及が見込まれるが、需要の実現時期と費用負担には不確実性が残る。"
+        }
+      ],
+      "7735": [],
+      "6920": [],
+      "6723": [],
+      "6981": [],
+      "6976": [],
+      "6762": [],
+      "5803": [],
+      "5801": [],
+      "6758": []
+    },
+    "valuation_notes": {}
+  }
+}

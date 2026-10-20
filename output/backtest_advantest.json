@@ -1,0 +1,354 @@
+{
+  "company": {
+    "code": "6857",
+    "name": "アドバンテスト"
+  },
+  "target": "当四半期SoCテスタ売上YoYの前四半期比方向（±10pt）",
+  "feature": "当四半期最初の2カ月の台湾・韓国 Malaysia原産HS903082輸入YoY",
+  "method": "walk-forward; minimum 8 prior quarters; calculation history excludes later quarters",
+  "point_in_time_certified": false,
+  "leakage_audit": {
+    "calculation_future_rows": "not used",
+    "feature_window": "quarter months 1-2 only",
+    "training_history": "strictly earlier quarters only",
+    "publication_timestamp": "not stored",
+    "data_vintage": "current revised series; original vintages unavailable",
+    "selection_bias": "HS code, thresholds and KPI choice were selected with full-sample domain knowledge",
+    "conclusion": "provisional backtest, not a certified point-in-time result"
+  },
+  "period": [
+    "2020Q1",
+    "2026Q2"
+  ],
+  "observations": 26,
+  "model": {
+    "accuracy": 0.46153846153846156,
+    "balanced_accuracy": 0.38484848484848483,
+    "confusion_matrix": {
+      "上向き": {
+        "上向き": 7,
+        "横ばい": 2,
+        "下向き": 1
+      },
+      "横ばい": {
+        "上向き": 3,
+        "横ばい": 0,
+        "下向き": 2
+      },
+      "下向き": {
+        "上向き": 4,
+        "横ばい": 2,
+        "下向き": 5
+      }
+    }
+  },
+  "repeat_previous_benchmark": {
+    "accuracy": 0.4230769230769231,
+    "balanced_accuracy": 0.38484848484848483,
+    "confusion_matrix": {
+      "上向き": {
+        "上向き": 5,
+        "横ばい": 1,
+        "下向き": 4
+      },
+      "横ばい": {
+        "上向き": 2,
+        "横ばい": 1,
+        "下向き": 2
+      },
+      "下向き": {
+        "上向き": 3,
+        "横ばい": 3,
+        "下向き": 5
+      }
+    }
+  },
+  "records": [
+    {
+      "quarter": "2020Q1",
+      "information_cutoff": "2020Q1 month 2",
+      "customs_yoy_pct": 15.124106974585615,
+      "signal": -0.22314271786913967,
+      "predicted": "横ばい",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": -28.738317757009348,
+      "sales_yoy_change_pp": -24.687684845616943,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2020Q2",
+      "information_cutoff": "2020Q2 month 2",
+      "customs_yoy_pct": 3.8722920479720147,
+      "signal": -0.5971653879341667,
+      "predicted": "下向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": -43.97321428571428,
+      "sales_yoy_change_pp": -15.23489652870493,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2020Q3",
+      "information_cutoff": "2020Q3 month 2",
+      "customs_yoy_pct": 45.883151508224216,
+      "signal": 1.5153633539891893,
+      "predicted": "上向き",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": -33.01435406698564,
+      "sales_yoy_change_pp": 10.958860218728638,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2020Q4",
+      "information_cutoff": "2020Q4 month 2",
+      "customs_yoy_pct": -26.1967700726763,
+      "signal": -2.0655653720976224,
+      "predicted": "下向き",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 3.693931398416872,
+      "sales_yoy_change_pp": 36.70828546540251,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2021Q1",
+      "information_cutoff": "2021Q1 month 2",
+      "customs_yoy_pct": 30.24285296719178,
+      "signal": 0.4498572418630948,
+      "predicted": "横ばい",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 60.65573770491803,
+      "sales_yoy_change_pp": 56.96180630650116,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2021Q2",
+      "information_cutoff": "2021Q2 month 2",
+      "customs_yoy_pct": 11.24846189277351,
+      "signal": -0.23142129700337477,
+      "predicted": "横ばい",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 100.0,
+      "sales_yoy_change_pp": 39.34426229508197,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2021Q3",
+      "information_cutoff": "2021Q3 month 2",
+      "customs_yoy_pct": -9.067601237378376,
+      "signal": -1.1507846853133592,
+      "predicted": "下向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": 72.14285714285715,
+      "sales_yoy_change_pp": -27.857142857142847,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2021Q4",
+      "information_cutoff": "2021Q4 month 2",
+      "customs_yoy_pct": 39.53359800004408,
+      "signal": 1.088977627393855,
+      "predicted": "上向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": 60.55979643765905,
+      "sales_yoy_change_pp": -11.5830607051981,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2022Q1",
+      "information_cutoff": "2022Q1 month 2",
+      "customs_yoy_pct": 1.4313123720849141,
+      "signal": -0.4962184516484706,
+      "predicted": "下向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": 30.816326530612237,
+      "sales_yoy_change_pp": -29.743469907046816,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2022Q2",
+      "information_cutoff": "2022Q2 month 2",
+      "customs_yoy_pct": 65.90505294953854,
+      "signal": 2.265484110543068,
+      "predicted": "上向き",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 56.972111553784856,
+      "sales_yoy_change_pp": 26.15578502317262,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2022Q3",
+      "information_cutoff": "2022Q3 month 2",
+      "customs_yoy_pct": 29.69150099315163,
+      "signal": 0.49264932035796566,
+      "predicted": "上向き",
+      "actual": "横ばい",
+      "tester_sales_yoy_pct": 65.56016597510373,
+      "sales_yoy_change_pp": 8.588054421318873,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2022Q4",
+      "information_cutoff": "2022Q4 month 2",
+      "customs_yoy_pct": -35.685707563631,
+      "signal": -2.381111173441735,
+      "predicted": "下向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": 26.78288431061806,
+      "sales_yoy_change_pp": -38.77728166448567,
+      "repeat_previous": "横ばい"
+    },
+    {
+      "quarter": "2023Q1",
+      "information_cutoff": "2023Q1 month 2",
+      "customs_yoy_pct": -62.31184698308956,
+      "signal": -2.5,
+      "predicted": "下向き",
+      "actual": "横ばい",
+      "tester_sales_yoy_pct": 35.56942277691111,
+      "sales_yoy_change_pp": 8.786538466293052,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2023Q2",
+      "information_cutoff": "2023Q2 month 2",
+      "customs_yoy_pct": -53.30590545245801,
+      "signal": -1.9079021063127484,
+      "predicted": "下向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": -22.461928934010146,
+      "sales_yoy_change_pp": -58.03135171092126,
+      "repeat_previous": "横ばい"
+    },
+    {
+      "quarter": "2023Q3",
+      "information_cutoff": "2023Q3 month 2",
+      "customs_yoy_pct": -60.505173355541245,
+      "signal": -2.045390159546402,
+      "predicted": "下向き",
+      "actual": "横ばい",
+      "tester_sales_yoy_pct": -21.679197994987465,
+      "sales_yoy_change_pp": 0.7827309390226809,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2023Q4",
+      "information_cutoff": "2023Q4 month 2",
+      "customs_yoy_pct": 74.13487516898766,
+      "signal": 1.6826484701108406,
+      "predicted": "上向き",
+      "actual": "横ばい",
+      "tester_sales_yoy_pct": -20.875,
+      "sales_yoy_change_pp": 0.8041979949874651,
+      "repeat_previous": "横ばい"
+    },
+    {
+      "quarter": "2024Q1",
+      "information_cutoff": "2024Q1 month 2",
+      "customs_yoy_pct": 59.10447310837181,
+      "signal": 1.1579563698845408,
+      "predicted": "上向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": -32.451093210586876,
+      "sales_yoy_change_pp": -11.576093210586876,
+      "repeat_previous": "横ばい"
+    },
+    {
+      "quarter": "2024Q2",
+      "information_cutoff": "2024Q2 month 2",
+      "customs_yoy_pct": 185.78932916057315,
+      "signal": 2.5,
+      "predicted": "上向き",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 13.09328968903436,
+      "sales_yoy_change_pp": 45.54438289962124,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2024Q3",
+      "information_cutoff": "2024Q3 month 2",
+      "customs_yoy_pct": 449.0511576124101,
+      "signal": 2.5,
+      "predicted": "上向き",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 75.2,
+      "sales_yoy_change_pp": 62.10671031096564,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2024Q4",
+      "information_cutoff": "2024Q4 month 2",
+      "customs_yoy_pct": 190.8823071824455,
+      "signal": 2.5,
+      "predicted": "上向き",
+      "actual": "横ばい",
+      "tester_sales_yoy_pct": 78.51500789889417,
+      "sales_yoy_change_pp": 3.315007898894166,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2025Q1",
+      "information_cutoff": "2025Q1 month 2",
+      "customs_yoy_pct": 453.3618872915792,
+      "signal": 2.5,
+      "predicted": "上向き",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 153.49233390119252,
+      "sales_yoy_change_pp": 74.97732600229835,
+      "repeat_previous": "横ばい"
+    },
+    {
+      "quarter": "2025Q2",
+      "information_cutoff": "2025Q2 month 2",
+      "customs_yoy_pct": 160.8409230539225,
+      "signal": 2.4427063491926955,
+      "predicted": "上向き",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 176.84515195369036,
+      "sales_yoy_change_pp": 23.352818052497838,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2025Q3",
+      "information_cutoff": "2025Q3 month 2",
+      "customs_yoy_pct": 118.60299073365157,
+      "signal": 1.5977940935098576,
+      "predicted": "上向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": 58.63013698630135,
+      "sales_yoy_change_pp": -118.21501496738901,
+      "repeat_previous": "上向き"
+    },
+    {
+      "quarter": "2025Q4",
+      "information_cutoff": "2025Q4 month 2",
+      "customs_yoy_pct": 28.46318369989187,
+      "signal": -0.025078949025142024,
+      "predicted": "横ばい",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": 46.19469026548673,
+      "sales_yoy_change_pp": -12.435446720814625,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2026Q1",
+      "information_cutoff": "2026Q1 month 2",
+      "customs_yoy_pct": 99.4214900248953,
+      "signal": 1.2526617216801417,
+      "predicted": "上向き",
+      "actual": "上向き",
+      "tester_sales_yoy_pct": 59.408602150537604,
+      "sales_yoy_change_pp": 13.213911885050877,
+      "repeat_previous": "下向き"
+    },
+    {
+      "quarter": "2026Q2",
+      "information_cutoff": "2026Q2 month 2",
+      "customs_yoy_pct": 59.626947810425854,
+      "signal": 0.5141614773429799,
+      "predicted": "上向き",
+      "actual": "下向き",
+      "tester_sales_yoy_pct": 35.70308416100367,
+      "sales_yoy_change_pp": -23.70551798953393,
+      "repeat_previous": "上向き"
+    }
+  ]
+}
